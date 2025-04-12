@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    background: linear-gradient(white, lightgreen);
+    border: 2px solid green;
+    padding: 15px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.title {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background: pink;
+    color: rgb(151, 59, 74);
+    font-weight: bold;
+    padding: 3px 10px;
+    border: 2px solid green;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: darkgreen;
+    margin-right: 10px;
+    width: 100px; 
+    
+}
+
+textarea {
+    width: 60%; 
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border: 1px solid green;
+    border-radius: 3px;
+    overflow-y: scroll;
+    resize: none;
+    scrollbar-color: #008000 #d1fad1;
+}
+
+input {
+    width: 40%; 
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
